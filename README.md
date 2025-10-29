@@ -1,5 +1,11 @@
 # DiceGame (jogo dos dados)
 ## Levantamento de Requisitos:
+   Requistos Não Funcionais:
+   
+   - O jogo deve calcular e exibir o resultado em menos de 3 segundo.
+   - Interface intuitiva e responsiva, acessível em desktop.
+   - Mensagens claras e visuais para erros e resultados (ex: “Aposta inválida” ou “Máquina venceu”).
+   - O sistema deve validar todas as entradas (nomes e apostas) antes do envio ao servidor.
 
    Requistos Funcionais:
    
