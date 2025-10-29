@@ -21,7 +21,7 @@
    - Pode ter mais de um vencedor por aposta.
 
 ## Diagrama de Classes
-![Diagrama de Classes](/diagrama_classes.png)
+![Diagrama de Classes](´/diagrama_classes.png´)
 
 ## Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](/diagrama_casos_usos.png)
+![Diagrama de Casos de Uso](´/diagrama_casos_usos.png´)
