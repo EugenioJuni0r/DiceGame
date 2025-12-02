@@ -1,0 +1,62 @@
+:root {
+  --site-primary: #1e90ff; /* cor padrão do site (DodgerBlue) */
+  --site-on-primary: #ffffff;
+  --site-accent: #0d6efd;
+}
+
+/* Typography */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Override Bootstrap primary color where useful */
+.btn-primary,
+.badge.bg-primary,
+.bg-primary {
+  background-color: var(--site-primary) !important;
+  border-color: var(--site-primary) !important;
+  color: var(--site-on-primary) !important;
+}
+
+.btn-primary:hover,
+.bg-primary:hover {
+  filter: brightness(0.95);
+}
+
+a {
+  color: var(--site-primary);
+}
+a:hover {
+  color: var(--site-accent);
+}
+
+header a.text-body-emphasis {
+  color: var(--site-primary);
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.sidebar {
+  min-height: 200px;
+}
+
+/* small helpers */
+.fs-4 {
+  color: var(--site-primary);
+}
+
+/* Alerts with site color */
+.alert-primary {
+  background-color: rgba(30,144,255,0.08);
+  border-color: rgba(30,144,255,0.18);
+  color: var(--site-primary);
+}
+
+/* form tweaks */
+.form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgba(30,144,255,0.25);
+}
